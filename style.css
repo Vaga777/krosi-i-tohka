@@ -1,0 +1,324 @@
+@media (max-width: 375px) 
+{
+    .sneakers,.content1
+    {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .te-con
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    .header-container
+    {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .logo-link,.footer__logo-image
+    {
+        margin-bottom: 24px;
+    }
+    .footer-content
+    {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .te-con
+    {
+        width: auto;
+    }
+    .ttt{
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        max-width: 295px;
+    }
+    h2
+    {
+        font-size: 32px;    
+    }
+    .tttt
+    {
+        max-width: 295px;
+        font-size: 16px;
+    }
+    .tttt p
+    {
+        font-size: 16px;
+    }
+
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,p,ul,li {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Anonymous Pro", sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F1F1F1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #A1A6B4;
+    background: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 24px 0 24px;
+}
+
+.logo-link {
+    max-width: 215px;
+}
+
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #121723;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.content {
+    margin: 32px 0;
+    max-width: 1140px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+.sneakers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 32px 0 0;
+}
+
+.sneaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 364px;
+    height: 100%;
+    border-radius: 12px;
+    background: white;
+    border-radius: 12px;
+
+}
+
+.sneaker-image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.sneaker-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121723;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 32px 0;
+}
+
+.footer__logo-link {
+    max-width: 300px;
+    width: 100%;
+}
+
+footer .nav-link {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    border-top: 1px solid #A1A6B4;
+}
+
+.copyright-text {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+.qwe{
+    transition: all 0.5s ease-out;
+}
+.qwe:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.sneaker-image1 img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 50px 50px 0px 0px;
+    margin-bottom: 32px;
+}
+.content1
+{
+
+    width: 100%;
+    border-radius: 12px;
+    background: var(--white-100, #FFF);
+    margin: 32px 0;
+    height: 100%;
+    padding: 48px;
+}
+.texxx
+{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+    margin-bottom: 24px;
+    
+}
+.te-con
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+.ttt
+{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    max-width:506px;
+}
+.ttt p
+{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+.tttt
+{   
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 25px;
+    width:506px;
+
+}
+.tttt hr
+{
+    margin-bottom:24px;
+    margin-top:24px;
+}
+.pa
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-self: stretch;
+
+}
+hr
+{
+    width: 100%;
+}
